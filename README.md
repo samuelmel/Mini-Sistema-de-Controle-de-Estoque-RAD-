@@ -1,45 +1,45 @@
-# Guia Git 
+Guia Git
+1. Clonar o repositório
 
-## Como atualizar o projeto antes de começar
-
-Antes de programar, sempre atualizar o projeto local:
-
+Cada integrante deve clonar o repositório do GitHub:
 ```bash
+git clone https://github.com/samuelmel/Mini-Sistema-de-Controle-de-Estoque-RAD-
+```
+
+Depois entrar na pasta do projeto:
+
+cd Mini-Sistema-de-Controle-de-Estoque-RAD-
+
+2. Atualizar o projeto antes de começar
+
+Antes de programar:
+
 git pull origin main
-```
 
-Isso garante que você tenha as alterações mais recentes do grupo.
+Isso garante que você tenha a versão mais recente do projeto.
 
----
+3. Fazer alterações no código
 
-# Como salvar alterações
+Cada integrante deve trabalhar apenas nos arquivos da sua tarefa.
 
-Depois de terminar uma parte do código:
+4. Salvar alterações
 
-```bash
+Adicionar arquivos modificados:
+
 git add .
-```
 
 Criar commit:
 
-```bash
 git commit -m "descrição da alteração"
-```
 
 Exemplo:
-
 ```bash
 git commit -m "implementa CRUD sqlite"
 ```
 
----
-
-# Como enviar para o GitHub
-
+5. Enviar para o GitHub
 ```bash
 git push origin main
 ```
-
----
 
 
