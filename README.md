@@ -6,15 +6,14 @@ Cada integrante deve clonar o repositório do GitHub:
 git clone https://github.com/samuelmel/Mini-Sistema-de-Controle-de-Estoque-RAD-
 ```
 
-Depois entrar na pasta do projeto:
-
-cd Mini-Sistema-de-Controle-de-Estoque-RAD-
+Depois entrar na pasta do projeto
 
 2. Atualizar o projeto antes de começar
 
 Antes de programar:
-
+```bash
 git pull origin main
+```
 
 Isso garante que você tenha a versão mais recente do projeto.
 
@@ -25,12 +24,13 @@ Cada integrante deve trabalhar apenas nos arquivos da sua tarefa.
 4. Salvar alterações
 
 Adicionar arquivos modificados:
-
+```bash
 git add .
-
+```
 Criar commit:
-
+```bash
 git commit -m "descrição da alteração"
+```
 
 Exemplo:
 ```bash
