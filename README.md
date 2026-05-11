@@ -30,12 +30,6 @@ Exemplos:
 git checkout -b réipodi
 ```
 
-## Interface
-
-```bash
-git checkout -b edellybosta
-```
-
 ---
 
 # 3. Verificar em qual branch está
