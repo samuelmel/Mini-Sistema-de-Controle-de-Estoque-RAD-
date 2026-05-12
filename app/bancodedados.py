@@ -24,3 +24,5 @@ def criar_tabela():
         )
     ''')
     
+    conexao.commit()
+    conexao.close() 
